@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Home</title>
+		    <link rel="stylesheet" href="./Lab 1 Example 6/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./Lab 1 Example 6/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+        <link rel="styelsheet" href="./Lab 1 Example 6/style/style.css">
+	</head>
+
+  <!-- Body of the page -->
+
+	<body>
+    <header>
+   
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <span class="navbar-text" >WEBD6201-Lab 1</span>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="productnav" class="nav-link" href="product.html">
+                        <i class="fa-solid fa-bars"></i>
+                        Products</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">
+                        <i class="fa-solid fa-bell"></i>
+                        Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="fa-solid fa-circle-info"></i>
+                        About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="fa-solid fa-phone"></i>
+                        Contact Us</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <style>
+      .img-container {
+        text-align: center;
+        display: block;
+      }
+    </style>
+    
+ 
+      <div id="maincontent" class="homecontent">
+        <span class="img-container"> 
+        <h2 id="homeTitle"></h2>
+        <p id="homeText"></p>
+        <img id="homeImage" src="" alt="">
+        </span>
+      </div>
+
+      <!-- Loading script files -->
+      <script src="./Lab 1 Example 6//node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="./Lab 1 Example 6//node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="./Lab 1 Example 6/scripts/app.js"></script>
+	</body>
+</html>
